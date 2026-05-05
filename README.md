@@ -7,7 +7,6 @@ A complete and reproducible single-cell RNA-seq analysis pipeline for the PBMC 1
 ```bash
 scRNA-seq-Seurat-Workflow/
 │
-├── single_cell/
 ├── single_cell_seurat.R
 ├── README.md 
 ├── results/                     
