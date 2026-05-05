@@ -5,21 +5,21 @@ A complete and reproducible single-cell RNA-seq analysis pipeline for the PBMC 1
 ## Project Structure
 
 ```bash
-scRNA-seq-with-seurat/
+scRNA-seq-Seurat-Workflow/
 │
 ├── single_cell/
-│   └── single_cell_seurat.R        
-│   └── README.md                  
-│   └── results/
-│   │   ├── QC_VlnPlot.png
-│   │   ├── nCount_vs_nFeature.png
-│   │   ├── nCount_vs_percentMT.png
-│   │   ├── Elbow_plot.png
-│   │   ├── UMAP_Clusters.png
-│   │   ├── umap_annotated.png
-│   │   ├── featurePlot_markers.png
-│   │   └── marker_expression.png
-│   │   └── TopGenes_DimHeatmap_PC1_10.pdf
+├── single_cell_seurat.R
+├── README.md 
+├── results/                     
+│   ├── QC_VlnPlot.png
+│   ├── nCount_vs_nFeature.png
+│   ├── nCount_vs_percentMT.png
+│   ├── Elbow_plot.png
+│   ├── UMAP_Clusters.png
+│   ├── umap_annotated.png
+│   ├── featurePlot_markers.png
+│   ├── marker_expression.png
+│   ├── TopGenes_DimHeatmap_PC1_10.pdf
 
 
 ```
